@@ -1,0 +1,104 @@
+
+input[type="submit"] {
+	color: red;
+	background: #ffffff;
+}
+
+.sbtn {
+  display       : inline-block;
+  border-radius : 5%;         /* 角丸       */
+  font-size     : 24pt;        /* 文字サイズ */
+  font-weight   : bold;
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 30px 130px;   /* 余白       */
+  background    : #ff0066;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #000066;    /* 枠の指定 */
+  margin-right  : 50px;
+  margin-left   : 50px;
+  margin-top    : 20px;
+}
+.sbtn:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #000066;     /* 背景色     */
+  background    : #ffff11;     /* 文字色     */
+}
+
+/* タイトルロゴ */
+.mainText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border        : 5px solid #f19327;
+    background-color: khaki;
+    border-radius : 30%;         /* 角丸       */
+    text-align      : center;
+    font-size     : 36pt;        /* 文字サイズ */
+    font-weight   : bold;
+    width         : 400px;
+    height        : 100px;
+    padding       : 10px 10px;   /* 余白       */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    color         : rgb(255, 0, 0);     /* 文字色     */
+}
+
+/* 真ん中にあるコンテナを整える */
+.menuBox{
+    border-radius : 10%;
+    display: center;
+    background-color: whitesmoke;
+    border: 4mm ridge #ffd00099;
+    height : 650px;
+    width: 600px;
+    margin-top: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+}
+
+/* テキストを真ん中にそろえる */
+.midText{
+    text-align: center;
+    font-size     : 16pt;        /* 文字サイズ */
+    font-weight   : bold;
+    padding       : 0px 10px 0px 10px;   /* 余白       */
+    color         : #494949;     /* 文字色     */
+}
+
+/* 背景 */
+.backgroundImg{
+    /* background-image: url(./imgs/background1.png); */
+    opacity: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+/* 属性の画像を整える */
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius : 20%;  
+}
+.elementImg{
+    width: 100px;
+    height: auto;
+}
+
+.textBox{
+    border: solid rgb(0, 0, 0);
+    width:200px;
+    height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}

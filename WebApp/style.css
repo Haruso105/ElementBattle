@@ -1,0 +1,167 @@
+h1 { 
+    color: red; /*文字色*/
+    /*background: #eeee10;    /* h1の背景色 */
+    padding:5px;            /* h1の余白 */
+}
+h3 {
+    margin-top: -20px;
+    color: #494949;                 /* h3の文字色*/
+    background: transparent;        /* h3の背景色：透明色 */
+}
+input[type="submit"] {
+	color: red;
+	background: #ffffff;
+}
+
+.field {
+  display: flex;
+  justify-content: space-around;
+  height: 290px;
+  margin: 1% 2% 1% 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  background-color: whitesmoke;
+  border: 4mm ridge #ffd00099;
+  align-items: center;
+}
+
+/* キャラクターの画像やパラメータを綺麗に配置 */
+.characterBox {
+  /* border: solid black;  */
+  height: 80%;
+  width: 50%;
+  text-align:center;
+  margin:1%;
+  vertical-align: middle;
+  z-index: 2;
+  font-weight: bold;
+}
+
+/* キャラクター名とそのパラメータ */
+.characterStatus{
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 20px;
+  margin-bottom: -20px;
+  margin-left: auto;
+  margin-right: auto;
+  width:250px;
+}
+
+/* 選択した属性を各キャラクターの後ろに薄く表示 */
+.absolute{
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  width: 800px;
+  opacity: 0.4;
+  position: absolute;
+}
+
+/* 画像を1つ前に置く */
+.zIndex{
+  z-index:1;
+}
+
+/* 属性カード */
+.card{
+    width: 20%;
+    height: 80%;
+    background-color: antiquewhite;
+    border: solid gold;
+    text-align:center;
+    transition    : .2s; 
+    box-shadow    : 12px 12px 3px rgb(170, 170, 170);
+}
+
+/* バトルログ */
+.battleLog{
+  width:900px;
+  height:200px;
+  background-color: antiquewhite;
+  border: solid gold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* ログの文字 */
+.logText{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 15px;
+  background-color: white;
+  /* padding: 0px 2px 0px 2px; */
+  height: 30px;
+  transition    : .3s;   
+}
+
+/* 選択されているカードを大きくする */
+.selected{
+    width: 22%;
+    height: 88%;
+}
+
+/* ボタンを中央に */
+.btn-container {
+  text-align: center;
+}
+
+/* ページ遷移用のボタン */
+.classBtn {
+  width: 50%;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  transition    : .3s;         /* なめらか変化 */
+}
+
+/* ボタンが非表示の時 */
+.disabledBtn {
+  cursor: default;
+  opacity: 0.5;
+}
+
+/* ボタンが押せるとき */
+.enableBtn {
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  cursor: pointer;
+}
+.enableBtn:hover {
+  box-shadow    : none;       
+  color         : #000066;    
+  background    : #ffff11;    
+}
+
+/* ボタンのテキストを大きくする*/
+button {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ボタンにカーソルを当てたとき、ボタンを半透明にする */
+button:hover {
+ opacity: 0.7;
+}
+
+/* 表示させるオブジェクトを隠す */
+.hidden {
+  display: none;
+}
+
+/* 攻撃されたときに光る */
+.hit{
+  filter: brightness(120%);
+  transition    : .2s; 
+}
+
+/* リザルト画面のテキスト */
+.resultText{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding:40px 0px 0px 0px;
+  /* height: 30px; */
+}
