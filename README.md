@@ -11,6 +11,7 @@
 - JavaScript (ES6)
 - PHP Version 8.0.30
 - 開発ツール: Visual Studio Code
+- 環境: XAMPP
 
 ## 工夫した点
 ### 1. 属性の特殊効果
