@@ -8,7 +8,10 @@
 
 開発期間：3週間
 
-## 使用技術
+## デモ動画
+https://github.com/user-attachments/assets/fa52db60-b565-408b-9a8a-d11cd506000d
+
+## 開発環境
 - HTML5 / CSS3
 - JavaScript (ES6)
 - PHP Version 8.0.30
